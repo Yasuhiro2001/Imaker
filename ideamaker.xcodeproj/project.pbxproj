@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E24F3F91CDF1CE2000ECA16 /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E24F3F81CDF1CE2000ECA16 /* img.jpg */; };
 		0E6266A71C67309300FD67E6 /* font_1_ant-maru.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E62669F1C67309300FD67E6 /* font_1_ant-maru.ttf */; };
 		0E6266A81C67309300FD67E6 /* LICENSE_E in Resources */ = {isa = PBXBuildFile; fileRef = 0E6266A11C67309300FD67E6 /* LICENSE_E */; };
 		0E6266A91C67309300FD67E6 /* LICENSE_J in Resources */ = {isa = PBXBuildFile; fileRef = 0E6266A21C67309300FD67E6 /* LICENSE_J */; };
@@ -96,6 +97,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E24F3F81CDF1CE2000ECA16 /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpg; sourceTree = "<group>"; };
 		0E62669F1C67309300FD67E6 /* font_1_ant-maru.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "font_1_ant-maru.ttf"; sourceTree = "<group>"; };
 		0E6266A11C67309300FD67E6 /* LICENSE_E */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_E; sourceTree = "<group>"; };
 		0E6266A21C67309300FD67E6 /* LICENSE_J */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_J; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				0ECEDC481C5E288100A63CEF /* img0.jpg */,
+				0E24F3F81CDF1CE2000ECA16 /* img.jpg */,
 				0E9F1F5E1C294FD10036600F /* ideamaker */,
 				0E9F1F731C294FD10036600F /* ideamakerTests */,
 				0E9F1F7E1C294FD10036600F /* ideamakerUITests */,
@@ -497,6 +500,7 @@
 				0E9F1F961C2951060036600F /* Main.storyboard in Resources */,
 				0E6266A91C67309300FD67E6 /* LICENSE_J in Resources */,
 				0E6266E91C67348600FD67E6 /* rounded-mplus-1c-heavy.ttf in Resources */,
+				0E24F3F91CDF1CE2000ECA16 /* img.jpg in Resources */,
 				0E6267011C67348600FD67E6 /* rounded-mplus-2c-heavy.ttf in Resources */,
 				0E6266E21C67348600FD67E6 /* LICENSE_J in Resources */,
 				0E6266FB1C67348600FD67E6 /* rounded-mplus-1p-light.ttf in Resources */,
