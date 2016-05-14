@@ -11,9 +11,9 @@ import UIKit
 
 class FirstTableViewController: UITableViewController {
     
-    let section = ["名詞","複数"]
-    let meishi = ["家電","食べ物","フルーツ","数字","動物","元気が出るボタン",]
-    let fukusuu = ["ランダム"]
+    let section = ["カテゴリー"]
+    let meishi = ["家電","食べ物","フルーツ","数字","動物","ランダム"]
+   // let fukusuu = ["ランダム"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,9 +41,9 @@ class FirstTableViewController: UITableViewController {
         if section == 0 {
             rowCount = meishi.count
         }
-        if section == 1 {
-            rowCount = fukusuu.count
-        }
+       // if section == 1 {
+            //rowCount = fukusuu.count
+        //}
         
         return rowCount
     }
@@ -60,19 +60,19 @@ class FirstTableViewController: UITableViewController {
             cell.textLabel!.font = UIFont(name: "Rounded M +1c", size: 17)
             cell.backgroundColor = UIColor(red: 250/255, green: 250/255, blue: 250/255, alpha: 1.0)
             
-        } else if indexPath.section == 1 {
-            cell.textLabel?.text = fukusuu[indexPath.row]
-            cell.backgroundColor = UIColor(red: 250/255, green: 250/255, blue: 250/255, alpha: 1.0)
-        }
+        } //else if indexPath.section == 1 {
+           // cell.textLabel?.text = fukusuu[indexPath.row]
+            //cell.backgroundColor = UIColor(red: 250/255, green: 250/255, blue: 250/255, alpha: 1.0)
+       // }
         
         return cell
     }
     
     //header
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+  //  override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
-        return self.section[section]
-    }
+    //    return self.section[section]
+  //  }
     
     //cellをたっぷしたらよばれる
     override func tableView(table: UITableView, didSelectRowAtIndexPath indexPath:NSIndexPath) {
