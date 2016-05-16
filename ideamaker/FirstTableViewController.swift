@@ -12,7 +12,7 @@ import UIKit
 class FirstTableViewController: UITableViewController {
     
     let section = ["カテゴリー"]
-    let meishi = ["家電","食べ物","フルーツ","数字","動物","ランダム"]
+    let meishi = ["家電","食べ物","飲み物","フルーツ","数字","動物","虫","植物","行動","ランダム"]
    // let fukusuu = ["ランダム"]
     
     override func viewDidLoad() {
